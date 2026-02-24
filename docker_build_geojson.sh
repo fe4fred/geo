@@ -1,0 +1,1 @@
+docker run --rm -v $(pwd):/data spatialite-builder myfile.geojson geo.db

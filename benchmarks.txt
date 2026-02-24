@@ -1,0 +1,205 @@
+### Test Norge uden CC
+python spatial_benchmark_with_region_timing.py databases/global_gadm.db gadm_level1 NAME_1 points/norway_1000_coords.csv 
+Loaded 1000 coordinate points
+
+=== Global Performance ===
+Total queries      : 1000
+Total time (s)     : 378.139144
+Average time (ms)  : 378.133398
+Std deviation (ms) : 232.002187
+Min time (ms)      : 96.581666
+Max time (ms)      : 907.525727
+Queries/sec (QPS)  : 2.64
+
+=== Region Statistics ===
+Norrbotten: 63 hits (6.30%) | Avg: 261.180469 ms | Std: 21.745173 ms
+Lapland: 54 hits (5.40%) | Avg: 103.985144 ms | Std: 6.729434 ms
+Western Finland: 43 hits (4.30%) | Avg: 233.130481 ms | Std: 20.763257 ms
+Oulu: 38 hits (3.80%) | Avg: 103.556101 ms | Std: 4.448668 ms
+Västerbotten: 32 hits (3.20%) | Avg: 270.209889 ms | Std: 23.836794 ms
+Jämtland: 29 hits (2.90%) | Avg: 251.798659 ms | Std: 14.247863 ms
+Finnmark: 27 hits (2.70%) | Avg: 198.002637 ms | Std: 11.634266 ms
+Nordland: 26 hits (2.60%) | Avg: 220.534456 ms | Std: 17.227573 ms
+Eastern Finland: 25 hits (2.50%) | Avg: 105.283734 ms | Std: 9.778622 ms
+Karelia: 18 hits (1.80%) | Avg: 240.772770 ms | Std: 24.917832 ms
+Dalarna: 16 hits (1.60%) | Avg: 229.342149 ms | Std: 15.945058 ms
+Oppland: 15 hits (1.50%) | Avg: 182.916618 ms | Std: 5.673832 ms
+Troms: 15 hits (1.50%) | Avg: 203.572380 ms | Std: 13.796594 ms
+Murmansk: 14 hits (1.40%) | Avg: 252.421647 ms | Std: 12.895818 ms
+Västra Götaland: 14 hits (1.40%) | Avg: 328.493389 ms | Std: 29.116992 ms
+Leningrad: 14 hits (1.40%) | Avg: 230.110407 ms | Std: 21.347446 ms
+Västernorrland: 12 hits (1.20%) | Avg: 254.311653 ms | Std: 17.495124 ms
+Pskov: 11 hits (1.10%) | Avg: 218.436483 ms | Std: 8.475120 ms
+Gävleborg: 11 hits (1.10%) | Avg: 234.322789 ms | Std: 15.554053 ms
+Hedmark: 10 hits (1.00%) | Avg: 178.283826 ms | Std: 3.475403 ms
+Hordaland: 9 hits (0.90%) | Avg: 226.192826 ms | Std: 16.473735 ms
+Värmland: 8 hits (0.80%) | Avg: 224.827596 ms | Std: 1.716483 ms
+Southern Finland: 8 hits (0.80%) | Avg: 143.186126 ms | Std: 7.952166 ms
+Aust-Agder: 8 hits (0.80%) | Avg: 191.836443 ms | Std: 7.608887 ms
+Sogn og Fjordane: 8 hits (0.80%) | Avg: 210.285548 ms | Std: 21.514854 ms
+Jönköping: 6 hits (0.60%) | Avg: 222.838801 ms | Std: 2.917075 ms
+Buskerud: 6 hits (0.60%) | Avg: 183.344855 ms | Std: 11.697153 ms
+Sør-Trøndelag: 6 hits (0.60%) | Avg: 188.157060 ms | Std: 4.583304 ms
+Telemark: 6 hits (0.60%) | Avg: 203.662597 ms | Std: 28.051125 ms
+Kurzeme: 5 hits (0.50%) | Avg: 169.874933 ms | Std: 13.676079 ms
+Akershus: 4 hits (0.40%) | Avg: 188.974138 ms | Std: 10.159463 ms
+Vidzeme: 4 hits (0.40%) | Avg: 163.203964 ms | Std: 1.488255 ms
+Orebro: 4 hits (0.40%) | Avg: 223.551001 ms | Std: 2.509761 ms
+Møre og Romsdal: 4 hits (0.40%) | Avg: 186.229649 ms | Std: 3.339363 ms
+Harju: 4 hits (0.40%) | Avg: 107.786251 ms | Std: 2.237582 ms
+Stockholm: 3 hits (0.30%) | Avg: 422.589317 ms | Std: 15.501855 ms
+Novgorod: 3 hits (0.30%) | Avg: 213.387750 ms | Std: 2.615727 ms
+Västmanland: 3 hits (0.30%) | Avg: 248.859499 ms | Std: 40.991793 ms
+Tartu: 3 hits (0.30%) | Avg: 103.003955 ms | Std: 0.357964 ms
+Nord-Trøndelag: 3 hits (0.30%) | Avg: 187.793050 ms | Std: 9.613281 ms
+Östergötland: 3 hits (0.30%) | Avg: 266.724281 ms | Std: 2.540773 ms
+Nordjylland: 2 hits (0.20%) | Avg: 99.271868 ms | Std: 1.008799 ms
+Rapla: 2 hits (0.20%) | Avg: 97.301717 ms | Std: 1.018307 ms
+Põlva: 2 hits (0.20%) | Avg: 103.399918 ms | Std: 5.184895 ms
+Uppsala: 2 hits (0.20%) | Avg: 225.628555 ms | Std: 1.092798 ms
+Kalmar: 2 hits (0.20%) | Avg: 302.362263 ms | Std: 6.742009 ms
+Södermanland: 2 hits (0.20%) | Avg: 260.971584 ms | Std: 33.846494 ms
+Pärnu: 2 hits (0.20%) | Avg: 119.036590 ms | Std: 5.317288 ms
+Valga: 2 hits (0.20%) | Avg: 103.116381 ms | Std: 4.539240 ms
+Ãstfold: 2 hits (0.20%) | Avg: 197.689469 ms | Std: 17.130033 ms
+Rogaland: 1 hits (0.10%) | Avg: 223.530977 ms | Std: 0.000000 ms
+Ida-Viru: 1 hits (0.10%) | Avg: 99.046801 ms | Std: 0.000000 ms
+Kronoberg: 1 hits (0.10%) | Avg: 297.375297 ms | Std: 0.000000 ms
+Viljandi: 1 hits (0.10%) | Avg: 121.691367 ms | Std: 0.000000 ms
+Järva: 1 hits (0.10%) | Avg: 96.775946 ms | Std: 0.000000 ms
+Halland: 1 hits (0.10%) | Avg: 223.262805 ms | Std: 0.000000 ms
+City of St. Petersburg: 1 hits (0.10%) | Avg: 259.050429 ms | Std: 0.000000 ms
+Lääne-Viru: 1 hits (0.10%) | Avg: 109.468961 ms | Std: 0.000000 ms
+Hiiu: 1 hits (0.10%) | Avg: 113.441236 ms | Std: 0.000000 ms
+Riga: 1 hits (0.10%) | Avg: 179.796187 ms | Std: 0.000000 ms
+
+Outside all regions: 377 (37.70%) | Avg: 666.026203 ms
+
+### Test Norge med CC
+python spatial_benchmark_with_region_timing.py databases/global_gadm.db gadm_level1 NAME_1 points/norway_1000_coords_cc.csv 
+Loaded 1000 coordinate points
+
+=== Global Performance ===
+Total queries      : 1000
+Total time (s)     : 11.973039
+Average time (ms)  : 11.967031
+Std deviation (ms) : 10.896347
+Min time (ms)      : 3.050300
+Max time (ms)      : 67.635270
+Queries/sec (QPS)  : 83.52
+
+=== Region Statistics ===
+Finnmark: 27 hits (2.70%) | Avg: 14.854047 ms | Std: 4.866851 ms
+Nordland: 26 hits (2.60%) | Avg: 33.054747 ms | Std: 12.325375 ms
+Oppland: 15 hits (1.50%) | Avg: 8.195809 ms | Std: 3.201089 ms
+Troms: 15 hits (1.50%) | Avg: 20.319465 ms | Std: 10.382894 ms
+Hedmark: 10 hits (1.00%) | Avg: 3.962222 ms | Std: 0.445837 ms
+Hordaland: 9 hits (0.90%) | Avg: 51.254935 ms | Std: 15.228851 ms
+Aust-Agder: 8 hits (0.80%) | Avg: 12.078648 ms | Std: 0.404431 ms
+Sogn og Fjordane: 8 hits (0.80%) | Avg: 19.527445 ms | Std: 19.608308 ms
+Buskerud: 6 hits (0.60%) | Avg: 4.676865 ms | Std: 0.090745 ms
+Sør-Trøndelag: 6 hits (0.60%) | Avg: 13.679400 ms | Std: 3.405204 ms
+Telemark: 6 hits (0.60%) | Avg: 25.100711 ms | Std: 19.773726 ms
+Akershus: 4 hits (0.40%) | Avg: 5.904399 ms | Std: 0.756020 ms
+Møre og Romsdal: 4 hits (0.40%) | Avg: 11.269005 ms | Std: 0.386338 ms
+Nord-Trøndelag: 3 hits (0.30%) | Avg: 10.491472 ms | Std: 0.082937 ms
+Ãstfold: 2 hits (0.20%) | Avg: 12.922085 ms | Std: 2.113918 ms
+Rogaland: 1 hits (0.10%) | Avg: 53.314573 ms | Std: 0.000000 ms
+
+Outside all regions: 850 (85.00%) | Avg: 10.688217 ms
+
+### Test Rusland uden CC
+python spatial_benchmark_with_region_timing.py databases/global_gadm.db gadm_level1 NAME_1 points/russia_100_coordinates_lonlat.csv 
+Loaded 100 coordinate points
+
+=== Global Performance ===
+Total queries      : 100
+Total time (s)     : 27.023341
+Average time (ms)  : 270.223990
+Std deviation (ms) : 132.461851
+Min time (ms)      : 19.971791
+Max time (ms)      : 756.413340
+Queries/sec (QPS)  : 3.70
+
+=== Region Statistics ===
+Krasnoyarsk: 9 hits (9.00%) | Avg: 306.192929 ms | Std: 12.293434 ms
+Xinjiang Uygur: 5 hits (5.00%) | Avg: 80.174298 ms | Std: 5.373676 ms
+Komi: 3 hits (3.00%) | Avg: 277.063164 ms | Std: 13.904016 ms
+Yamal-Nenets: 3 hits (3.00%) | Avg: 344.264063 ms | Std: 2.081354 ms
+Novosibirsk: 2 hits (2.00%) | Avg: 299.232111 ms | Std: 12.195147 ms
+Khanty-Mansiy: 2 hits (2.00%) | Avg: 216.445849 ms | Std: 1.839110 ms
+Zabaykal'ye: 2 hits (2.00%) | Avg: 219.001768 ms | Std: 3.312880 ms
+Omsk: 2 hits (2.00%) | Avg: 215.168976 ms | Std: 4.498562 ms
+Magadan: 2 hits (2.00%) | Avg: 249.928153 ms | Std: 19.182512 ms
+Sakha: 2 hits (2.00%) | Avg: 300.898736 ms | Std: 6.062683 ms
+Murmansk: 2 hits (2.00%) | Avg: 246.928642 ms | Std: 22.052500 ms
+Irkutsk: 2 hits (2.00%) | Avg: 219.415746 ms | Std: 17.592508 ms
+Ialomița: 1 hits (1.00%) | Avg: 247.431881 ms | Std: 0.000000 ms
+Buryat: 1 hits (1.00%) | Avg: 207.115636 ms | Std: 0.000000 ms
+Lebap: 1 hits (1.00%) | Avg: 231.287935 ms | Std: 0.000000 ms
+Nei Mongol: 1 hits (1.00%) | Avg: 77.904538 ms | Std: 0.000000 ms
+Yevrey: 1 hits (1.00%) | Avg: 261.192289 ms | Std: 0.000000 ms
+Leningrad: 1 hits (1.00%) | Avg: 219.486027 ms | Std: 0.000000 ms
+Mangghystau: 1 hits (1.00%) | Avg: 159.038836 ms | Std: 0.000000 ms
+Jilin: 1 hits (1.00%) | Avg: 80.685048 ms | Std: 0.000000 ms
+East Kazakhstan: 1 hits (1.00%) | Avg: 152.110771 ms | Std: 0.000000 ms
+Chukot: 1 hits (1.00%) | Avg: 215.793701 ms | Std: 0.000000 ms
+Heilongjiang: 1 hits (1.00%) | Avg: 74.480923 ms | Std: 0.000000 ms
+Arhangay: 1 hits (1.00%) | Avg: 171.664112 ms | Std: 0.000000 ms
+Rostov: 1 hits (1.00%) | Avg: 213.448506 ms | Std: 0.000000 ms
+Kurgan: 1 hits (1.00%) | Avg: 214.706882 ms | Std: 0.000000 ms
+Sverdlovsk: 1 hits (1.00%) | Avg: 216.135244 ms | Std: 0.000000 ms
+Hovd: 1 hits (1.00%) | Avg: 172.904252 ms | Std: 0.000000 ms
+Vitebsk: 1 hits (1.00%) | Avg: 19.971791 ms | Std: 0.000000 ms
+Novgorod: 1 hits (1.00%) | Avg: 221.815074 ms | Std: 0.000000 ms
+Khabarovsk: 1 hits (1.00%) | Avg: 228.336525 ms | Std: 0.000000 ms
+Qaraqalpaqstan: 1 hits (1.00%) | Avg: 255.063163 ms | Std: 0.000000 ms
+Amur: 1 hits (1.00%) | Avg: 208.313534 ms | Std: 0.000000 ms
+Töv: 1 hits (1.00%) | Avg: 172.098344 ms | Std: 0.000000 ms
+Pavlodar: 1 hits (1.00%) | Avg: 153.814325 ms | Std: 0.000000 ms
+Selenge: 1 hits (1.00%) | Avg: 171.834704 ms | Std: 0.000000 ms
+West Kazakhstan: 1 hits (1.00%) | Avg: 157.688703 ms | Std: 0.000000 ms
+Bryansk: 1 hits (1.00%) | Avg: 218.561733 ms | Std: 0.000000 ms
+Pskov: 1 hits (1.00%) | Avg: 214.094756 ms | Std: 0.000000 ms
+
+Outside all regions: 37 (37.00%) | Avg: 354.886223 ms
+
+### Test Rusland med CC
+python spatial_benchmark_with_region_timing.py databases/global_gadm.db gadm_level1 NAME_1 points/russia_100_coordinates_lonlatcc.csv
+Loaded 100 coordinate points
+
+=== Global Performance ===
+Total queries      : 100
+Total time (s)     : 4.406401
+Average time (ms)  : 44.055899
+Std deviation (ms) : 42.528549
+Min time (ms)      : 3.408372
+Max time (ms)      : 171.827383
+Queries/sec (QPS)  : 22.69
+
+=== Region Statistics ===
+Krasnoyarsk: 9 hits (9.00%) | Avg: 104.559542 ms | Std: 8.869705 ms
+Komi: 3 hits (3.00%) | Avg: 72.843329 ms | Std: 12.470588 ms
+Yamal-Nenets: 3 hits (3.00%) | Avg: 153.222851 ms | Std: 16.276972 ms
+Novosibirsk: 2 hits (2.00%) | Avg: 96.707752 ms | Std: 10.281731 ms
+Khanty-Mansiy: 2 hits (2.00%) | Avg: 6.270671 ms | Std: 0.063379 ms
+Zabaykal'ye: 2 hits (2.00%) | Avg: 13.559723 ms | Std: 0.189377 ms
+Omsk: 2 hits (2.00%) | Avg: 9.940674 ms | Std: 0.642293 ms
+Magadan: 2 hits (2.00%) | Avg: 48.922417 ms | Std: 17.264243 ms
+Sakha: 2 hits (2.00%) | Avg: 112.102306 ms | Std: 13.457965 ms
+Murmansk: 2 hits (2.00%) | Avg: 44.777122 ms | Std: 26.763538 ms
+Irkutsk: 2 hits (2.00%) | Avg: 17.224345 ms | Std: 16.420143 ms
+Buryat: 1 hits (1.00%) | Avg: 4.265607 ms | Std: 0.000000 ms
+Yevrey: 1 hits (1.00%) | Avg: 61.296429 ms | Std: 0.000000 ms
+Leningrad: 1 hits (1.00%) | Avg: 13.480658 ms | Std: 0.000000 ms
+Chukot: 1 hits (1.00%) | Avg: 14.698649 ms | Std: 0.000000 ms
+Rostov: 1 hits (1.00%) | Avg: 11.857918 ms | Std: 0.000000 ms
+Kurgan: 1 hits (1.00%) | Avg: 8.711178 ms | Std: 0.000000 ms
+Sverdlovsk: 1 hits (1.00%) | Avg: 12.150399 ms | Std: 0.000000 ms
+Novgorod: 1 hits (1.00%) | Avg: 14.510842 ms | Std: 0.000000 ms
+Khabarovsk: 1 hits (1.00%) | Avg: 24.209500 ms | Std: 0.000000 ms
+Amur: 1 hits (1.00%) | Avg: 3.408372 ms | Std: 0.000000 ms
+Bryansk: 1 hits (1.00%) | Avg: 4.412728 ms | Std: 0.000000 ms
+Pskov: 1 hits (1.00%) | Avg: 10.612278 ms | Std: 0.000000 ms
+
+Outside all regions: 57 (57.00%) | Avg: 33.398788 ms

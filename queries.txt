@@ -1,0 +1,24 @@
+
+sudo apt install spatialite-bin libsqlite3-mod-spatialite
+
+pip install geopandas shapely
+
+pip install fiona shapely
+
+sudo apt install spatialite-bin libsqlite3-mod-spatialite
+
+
+# Next database
+sudo apt install gdal-bin
+ogrinfo gadm41_levels.gpkg
+ogr2ogr -f SQLite global_gadm.db gadm_410-levels.gpkg   -dsco SPATIALITE=YES   -nln gadm_level1   -gt 65536   -progress   ADM_1
+
+
+SELECT 
+    p.NAME_1,
+    COUNT(pt.rowid) AS point_count
+FROM gadm_level1 p
+JOIN points pt
+ON ST_Contains(p.geom, pt.geom)
+WHERE p.NAME_1 = 'Oslo'
+GROUP BY p.NAME_1;
